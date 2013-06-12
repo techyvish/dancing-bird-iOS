@@ -280,9 +280,9 @@
 		C937BAA3175C05A400709B4B /* b2WeldJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C937BAA2175C05A400709B4B /* b2WeldJoint.cpp */; };
 		C937BAA6175C05A400709B4B /* b2WheelJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C937BAA5175C05A400709B4B /* b2WheelJoint.cpp */; };
 		C937BAAA175C05A400709B4B /* b2Rope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C937BAA9175C05A400709B4B /* b2Rope.cpp */; };
-		C937BAB1175C05A400709B4B /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C937BAB0175C05A400709B4B /* AppDelegate.cpp */; };
-		C937BAB4175C05A400709B4B /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C937BAB3175C05A400709B4B /* HelloWorldScene.cpp */; };
 		C937BAB6175C05A400709B4B /* blocks.png in Resources */ = {isa = PBXBuildFile; fileRef = C937BAB5175C05A400709B4B /* blocks.png */; };
+		C9B5A0E1175F988200CF3700 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9B5A0DD175F988200CF3700 /* AppDelegate.cpp */; };
+		C9B5A0E2175F988200CF3700 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9B5A0DF175F988200CF3700 /* HelloWorldScene.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -877,11 +877,11 @@
 		C937BAA9175C05A400709B4B /* b2Rope.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = b2Rope.cpp; path = libs/Box2D/Rope/b2Rope.cpp; sourceTree = "<group>"; };
 		C937BAAB175C05A400709B4B /* b2Rope.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = b2Rope.h; path = libs/Box2D/Rope/b2Rope.h; sourceTree = "<group>"; };
 		C937BAAD175C05A400709B4B /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
-		C937BAAF175C05A400709B4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
-		C937BAB0175C05A400709B4B /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
-		C937BAB2175C05A400709B4B /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
-		C937BAB3175C05A400709B4B /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
 		C937BAB5175C05A400709B4B /* blocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blocks.png; path = Resources/blocks.png; sourceTree = "<group>"; };
+		C9B5A0DD175F988200CF3700 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = ../../creativegame/Classes/AppDelegate.cpp; sourceTree = "<group>"; };
+		C9B5A0DE175F988200CF3700 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../creativegame/Classes/AppDelegate.h; sourceTree = "<group>"; };
+		C9B5A0DF175F988200CF3700 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = ../../creativegame/Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
+		C9B5A0E0175F988200CF3700 /* HelloWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = ../../creativegame/Classes/HelloWorldScene.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2075,10 +2075,10 @@
 		C937BAAE175C05A400709B4B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				C937BAAF175C05A400709B4B /* AppDelegate.h */,
-				C937BAB0175C05A400709B4B /* AppDelegate.cpp */,
-				C937BAB2175C05A400709B4B /* HelloWorldScene.h */,
-				C937BAB3175C05A400709B4B /* HelloWorldScene.cpp */,
+				C9B5A0DD175F988200CF3700 /* AppDelegate.cpp */,
+				C9B5A0DE175F988200CF3700 /* AppDelegate.h */,
+				C9B5A0DF175F988200CF3700 /* HelloWorldScene.cpp */,
+				C9B5A0E0175F988200CF3700 /* HelloWorldScene.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -2407,8 +2407,8 @@
 				C937BAA3175C05A400709B4B /* b2WeldJoint.cpp in Sources */,
 				C937BAA6175C05A400709B4B /* b2WheelJoint.cpp in Sources */,
 				C937BAAA175C05A400709B4B /* b2Rope.cpp in Sources */,
-				C937BAB1175C05A400709B4B /* AppDelegate.cpp in Sources */,
-				C937BAB4175C05A400709B4B /* HelloWorldScene.cpp in Sources */,
+				C9B5A0E1175F988200CF3700 /* AppDelegate.cpp in Sources */,
+				C9B5A0E2175F988200CF3700 /* HelloWorldScene.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2485,6 +2485,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vishal Patel (288E6BRTHE)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Vishal Patel (288E6BRTHE)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -2501,6 +2503,8 @@
 					"-lsqlite3",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7293B233-D9FF-413F-B540-3E4633B8D2BB";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7293B233-D9FF-413F-B540-3E4633B8D2BB";
 				USER_HEADER_SEARCH_PATHS = "\"SampleiOSGame/libs\"";
 				WRAPPER_EXTENSION = app;
 			};
@@ -2510,6 +2514,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vishal Patel (288E6BRTHE)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Vishal Patel (288E6BRTHE)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = SampleiOSGame/Prefix.pch;
@@ -2525,6 +2531,8 @@
 					"-lsqlite3",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7293B233-D9FF-413F-B540-3E4633B8D2BB";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7293B233-D9FF-413F-B540-3E4633B8D2BB";
 				USER_HEADER_SEARCH_PATHS = "\"SampleiOSGame/libs\"";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -2550,6 +2558,7 @@
 				C937BABB175C05A400709B4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
