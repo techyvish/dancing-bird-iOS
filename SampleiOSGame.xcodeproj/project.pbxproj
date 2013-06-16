@@ -281,8 +281,15 @@
 		C937BAA6175C05A400709B4B /* b2WheelJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C937BAA5175C05A400709B4B /* b2WheelJoint.cpp */; };
 		C937BAAA175C05A400709B4B /* b2Rope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C937BAA9175C05A400709B4B /* b2Rope.cpp */; };
 		C937BAB6175C05A400709B4B /* blocks.png in Resources */ = {isa = PBXBuildFile; fileRef = C937BAB5175C05A400709B4B /* blocks.png */; };
+		C9485BFA176897E700895D91 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9485BF9176897E700895D91 /* Default-568h@2x.png */; };
+		C95CA32E176DE1D300448E09 /* BirdNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C95CA32C176DE1D300448E09 /* BirdNode.cpp */; };
 		C9B5A0E1175F988200CF3700 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9B5A0DD175F988200CF3700 /* AppDelegate.cpp */; };
 		C9B5A0E2175F988200CF3700 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9B5A0DF175F988200CF3700 /* HelloWorldScene.cpp */; };
+		C9DC56DD176C8ABE00ED6EF7 /* SpineLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9DC56DB176C8ABE00ED6EF7 /* SpineLayer.cpp */; };
+		C9DC56EA176CA59200ED6EF7 /* bird_anim.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C9DC56E7176CA59200ED6EF7 /* bird_anim.atlas */; };
+		C9DC56EB176CA59200ED6EF7 /* bird.png in Resources */ = {isa = PBXBuildFile; fileRef = C9DC56E8176CA59200ED6EF7 /* bird.png */; };
+		C9DC56EC176CA59200ED6EF7 /* skeleton.json in Resources */ = {isa = PBXBuildFile; fileRef = C9DC56E9176CA59200ED6EF7 /* skeleton.json */; };
+		C9DC56EE176CC1E900ED6EF7 /* Ocean in Resources */ = {isa = PBXBuildFile; fileRef = C9DC56ED176CC1E900ED6EF7 /* Ocean */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -878,10 +885,19 @@
 		C937BAAB175C05A400709B4B /* b2Rope.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = b2Rope.h; path = libs/Box2D/Rope/b2Rope.h; sourceTree = "<group>"; };
 		C937BAAD175C05A400709B4B /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		C937BAB5175C05A400709B4B /* blocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blocks.png; path = Resources/blocks.png; sourceTree = "<group>"; };
+		C9485BF9176897E700895D91 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
+		C95CA32C176DE1D300448E09 /* BirdNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BirdNode.cpp; path = ../../creativegame/Classes/BirdNode.cpp; sourceTree = "<group>"; };
+		C95CA32D176DE1D300448E09 /* BirdNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BirdNode.h; path = ../../creativegame/Classes/BirdNode.h; sourceTree = "<group>"; };
 		C9B5A0DD175F988200CF3700 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = ../../creativegame/Classes/AppDelegate.cpp; sourceTree = "<group>"; };
 		C9B5A0DE175F988200CF3700 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../creativegame/Classes/AppDelegate.h; sourceTree = "<group>"; };
 		C9B5A0DF175F988200CF3700 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = ../../creativegame/Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
 		C9B5A0E0175F988200CF3700 /* HelloWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = ../../creativegame/Classes/HelloWorldScene.h; sourceTree = "<group>"; };
+		C9DC56DB176C8ABE00ED6EF7 /* SpineLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SpineLayer.cpp; path = ../../creativegame/Classes/SpineLayer.cpp; sourceTree = "<group>"; };
+		C9DC56DC176C8ABE00ED6EF7 /* SpineLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpineLayer.h; path = ../../creativegame/Classes/SpineLayer.h; sourceTree = "<group>"; };
+		C9DC56E7176CA59200ED6EF7 /* bird_anim.atlas */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bird_anim.atlas; path = Resources/bird_anim.atlas; sourceTree = "<group>"; };
+		C9DC56E8176CA59200ED6EF7 /* bird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bird.png; path = Resources/bird.png; sourceTree = "<group>"; };
+		C9DC56E9176CA59200ED6EF7 /* skeleton.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = skeleton.json; path = Resources/skeleton.json; sourceTree = "<group>"; };
+		C9DC56ED176CC1E900ED6EF7 /* Ocean */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Ocean; path = Resources/Ocean; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -952,6 +968,11 @@
 		C937B71B175C059F00709B4B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C9DC56ED176CC1E900ED6EF7 /* Ocean */,
+				C9DC56E7176CA59200ED6EF7 /* bird_anim.atlas */,
+				C9DC56E8176CA59200ED6EF7 /* bird.png */,
+				C9DC56E9176CA59200ED6EF7 /* skeleton.json */,
+				C9485BF9176897E700895D91 /* Default-568h@2x.png */,
 				C937B71C175C059F00709B4B /* CloseNormal.png */,
 				C937B71E175C059F00709B4B /* CloseSelected.png */,
 				C937B720175C059F00709B4B /* Default.png */,
@@ -2075,6 +2096,10 @@
 		C937BAAE175C05A400709B4B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C95CA32C176DE1D300448E09 /* BirdNode.cpp */,
+				C95CA32D176DE1D300448E09 /* BirdNode.h */,
+				C9DC56DB176C8ABE00ED6EF7 /* SpineLayer.cpp */,
+				C9DC56DC176C8ABE00ED6EF7 /* SpineLayer.h */,
 				C9B5A0DD175F988200CF3700 /* AppDelegate.cpp */,
 				C9B5A0DE175F988200CF3700 /* AppDelegate.h */,
 				C9B5A0DF175F988200CF3700 /* HelloWorldScene.cpp */,
@@ -2147,6 +2172,11 @@
 				C937B7CD175C05A000709B4B /* ChangeLog in Resources */,
 				C937B937175C05A200709B4B /* project.pbxproj in Resources */,
 				C937BAB6175C05A400709B4B /* blocks.png in Resources */,
+				C9485BFA176897E700895D91 /* Default-568h@2x.png in Resources */,
+				C9DC56EA176CA59200ED6EF7 /* bird_anim.atlas in Resources */,
+				C9DC56EB176CA59200ED6EF7 /* bird.png in Resources */,
+				C9DC56EC176CA59200ED6EF7 /* skeleton.json in Resources */,
+				C9DC56EE176CC1E900ED6EF7 /* Ocean in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2409,6 +2439,8 @@
 				C937BAAA175C05A400709B4B /* b2Rope.cpp in Sources */,
 				C9B5A0E1175F988200CF3700 /* AppDelegate.cpp in Sources */,
 				C9B5A0E2175F988200CF3700 /* HelloWorldScene.cpp in Sources */,
+				C9DC56DD176C8ABE00ED6EF7 /* SpineLayer.cpp in Sources */,
+				C95CA32E176DE1D300448E09 /* BirdNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2493,6 +2525,7 @@
 				GCC_PREFIX_HEADER = SampleiOSGame/Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				INFOPLIST_FILE = SampleiOSGame/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/SampleiOSGame/libs/cocos2dx/platform/third_party/ios/libraries\"",
@@ -2521,6 +2554,7 @@
 				GCC_PREFIX_HEADER = SampleiOSGame/Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				INFOPLIST_FILE = SampleiOSGame/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/SampleiOSGame/libs/cocos2dx/platform/third_party/ios/libraries\"",
