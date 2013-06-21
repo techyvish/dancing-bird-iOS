@@ -290,6 +290,10 @@
 		C9DC56EB176CA59200ED6EF7 /* bird.png in Resources */ = {isa = PBXBuildFile; fileRef = C9DC56E8176CA59200ED6EF7 /* bird.png */; };
 		C9DC56EC176CA59200ED6EF7 /* skeleton.json in Resources */ = {isa = PBXBuildFile; fileRef = C9DC56E9176CA59200ED6EF7 /* skeleton.json */; };
 		C9DC56EE176CC1E900ED6EF7 /* Ocean in Resources */ = {isa = PBXBuildFile; fileRef = C9DC56ED176CC1E900ED6EF7 /* Ocean */; };
+		C9E0A376177099CF00919894 /* cloud in Resources */ = {isa = PBXBuildFile; fileRef = C9E0A375177099CF00919894 /* cloud */; };
+		C9E0A3791770A02500919894 /* CloudEmitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9E0A3771770A02500919894 /* CloudEmitter.cpp */; };
+		C9E0A37E1770A41400919894 /* CCParallaxScrollNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9E0A37A1770A41300919894 /* CCParallaxScrollNode.cpp */; };
+		C9E0A37F1770A41400919894 /* CCParallaxScrollOffset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9E0A37C1770A41400919894 /* CCParallaxScrollOffset.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -898,6 +902,13 @@
 		C9DC56E8176CA59200ED6EF7 /* bird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bird.png; path = Resources/bird.png; sourceTree = "<group>"; };
 		C9DC56E9176CA59200ED6EF7 /* skeleton.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = skeleton.json; path = Resources/skeleton.json; sourceTree = "<group>"; };
 		C9DC56ED176CC1E900ED6EF7 /* Ocean */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Ocean; path = Resources/Ocean; sourceTree = "<group>"; };
+		C9E0A375177099CF00919894 /* cloud */ = {isa = PBXFileReference; lastKnownFileType = folder; name = cloud; path = Resources/cloud; sourceTree = "<group>"; };
+		C9E0A3771770A02500919894 /* CloudEmitter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CloudEmitter.cpp; sourceTree = "<group>"; };
+		C9E0A3781770A02500919894 /* CloudEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudEmitter.h; sourceTree = "<group>"; };
+		C9E0A37A1770A41300919894 /* CCParallaxScrollNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CCParallaxScrollNode.cpp; path = ../../creativegame/Classes/CCParallaxScrollNode.cpp; sourceTree = "<group>"; };
+		C9E0A37B1770A41400919894 /* CCParallaxScrollNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCParallaxScrollNode.h; path = ../../creativegame/Classes/CCParallaxScrollNode.h; sourceTree = "<group>"; };
+		C9E0A37C1770A41400919894 /* CCParallaxScrollOffset.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CCParallaxScrollOffset.cpp; path = ../../creativegame/Classes/CCParallaxScrollOffset.cpp; sourceTree = "<group>"; };
+		C9E0A37D1770A41400919894 /* CCParallaxScrollOffset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCParallaxScrollOffset.h; path = ../../creativegame/Classes/CCParallaxScrollOffset.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -968,6 +979,7 @@
 		C937B71B175C059F00709B4B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C9E0A375177099CF00919894 /* cloud */,
 				C9DC56ED176CC1E900ED6EF7 /* Ocean */,
 				C9DC56E7176CA59200ED6EF7 /* bird_anim.atlas */,
 				C9DC56E8176CA59200ED6EF7 /* bird.png */,
@@ -2096,6 +2108,10 @@
 		C937BAAE175C05A400709B4B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C9E0A37A1770A41300919894 /* CCParallaxScrollNode.cpp */,
+				C9E0A37B1770A41400919894 /* CCParallaxScrollNode.h */,
+				C9E0A37C1770A41400919894 /* CCParallaxScrollOffset.cpp */,
+				C9E0A37D1770A41400919894 /* CCParallaxScrollOffset.h */,
 				C95CA32C176DE1D300448E09 /* BirdNode.cpp */,
 				C95CA32D176DE1D300448E09 /* BirdNode.h */,
 				C9DC56DB176C8ABE00ED6EF7 /* SpineLayer.cpp */,
@@ -2104,6 +2120,8 @@
 				C9B5A0DE175F988200CF3700 /* AppDelegate.h */,
 				C9B5A0DF175F988200CF3700 /* HelloWorldScene.cpp */,
 				C9B5A0E0175F988200CF3700 /* HelloWorldScene.h */,
+				C9E0A3771770A02500919894 /* CloudEmitter.cpp */,
+				C9E0A3781770A02500919894 /* CloudEmitter.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -2177,6 +2195,7 @@
 				C9DC56EB176CA59200ED6EF7 /* bird.png in Resources */,
 				C9DC56EC176CA59200ED6EF7 /* skeleton.json in Resources */,
 				C9DC56EE176CC1E900ED6EF7 /* Ocean in Resources */,
+				C9E0A376177099CF00919894 /* cloud in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2441,6 +2460,9 @@
 				C9B5A0E2175F988200CF3700 /* HelloWorldScene.cpp in Sources */,
 				C9DC56DD176C8ABE00ED6EF7 /* SpineLayer.cpp in Sources */,
 				C95CA32E176DE1D300448E09 /* BirdNode.cpp in Sources */,
+				C9E0A3791770A02500919894 /* CloudEmitter.cpp in Sources */,
+				C9E0A37E1770A41400919894 /* CCParallaxScrollNode.cpp in Sources */,
+				C9E0A37F1770A41400919894 /* CCParallaxScrollOffset.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
