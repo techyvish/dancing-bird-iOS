@@ -283,6 +283,8 @@
 		C937BAB6175C05A400709B4B /* blocks.png in Resources */ = {isa = PBXBuildFile; fileRef = C937BAB5175C05A400709B4B /* blocks.png */; };
 		C9485BFA176897E700895D91 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9485BF9176897E700895D91 /* Default-568h@2x.png */; };
 		C95CA32E176DE1D300448E09 /* BirdNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C95CA32C176DE1D300448E09 /* BirdNode.cpp */; };
+		C96352E417A0555B0092BC3C /* dot.png in Resources */ = {isa = PBXBuildFile; fileRef = C96352E317A0555B0092BC3C /* dot.png */; };
+		C96352E817A058250092BC3C /* dot_small.png in Resources */ = {isa = PBXBuildFile; fileRef = C96352E717A058250092BC3C /* dot_small.png */; };
 		C9B5A0E1175F988200CF3700 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9B5A0DD175F988200CF3700 /* AppDelegate.cpp */; };
 		C9B5A0E2175F988200CF3700 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9B5A0DF175F988200CF3700 /* HelloWorldScene.cpp */; };
 		C9DC56DD176C8ABE00ED6EF7 /* SpineLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9DC56DB176C8ABE00ED6EF7 /* SpineLayer.cpp */; };
@@ -892,6 +894,8 @@
 		C9485BF9176897E700895D91 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
 		C95CA32C176DE1D300448E09 /* BirdNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BirdNode.cpp; path = ../../creativegame/Classes/BirdNode.cpp; sourceTree = "<group>"; };
 		C95CA32D176DE1D300448E09 /* BirdNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BirdNode.h; path = ../../creativegame/Classes/BirdNode.h; sourceTree = "<group>"; };
+		C96352E317A0555B0092BC3C /* dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dot.png; path = Resources/dot.png; sourceTree = "<group>"; };
+		C96352E717A058250092BC3C /* dot_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dot_small.png; path = Resources/dot_small.png; sourceTree = "<group>"; };
 		C9B5A0DD175F988200CF3700 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = ../../creativegame/Classes/AppDelegate.cpp; sourceTree = "<group>"; };
 		C9B5A0DE175F988200CF3700 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../creativegame/Classes/AppDelegate.h; sourceTree = "<group>"; };
 		C9B5A0DF175F988200CF3700 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = ../../creativegame/Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
@@ -979,6 +983,8 @@
 		C937B71B175C059F00709B4B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C96352E717A058250092BC3C /* dot_small.png */,
+				C96352E317A0555B0092BC3C /* dot.png */,
 				C9E0A375177099CF00919894 /* cloud */,
 				C9DC56ED176CC1E900ED6EF7 /* Ocean */,
 				C9DC56E7176CA59200ED6EF7 /* bird_anim.atlas */,
@@ -2196,6 +2202,8 @@
 				C9DC56EC176CA59200ED6EF7 /* skeleton.json in Resources */,
 				C9DC56EE176CC1E900ED6EF7 /* Ocean in Resources */,
 				C9E0A376177099CF00919894 /* cloud in Resources */,
+				C96352E417A0555B0092BC3C /* dot.png in Resources */,
+				C96352E817A058250092BC3C /* dot_small.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
