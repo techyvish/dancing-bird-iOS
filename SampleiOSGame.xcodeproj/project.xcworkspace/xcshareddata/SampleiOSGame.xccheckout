@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>715086D2-403E-40DE-BA01-62FA640DF8C9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SampleiOSGame</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DBD93B53-FD2F-4A35-8930-34C81702837D</key>
+		<string>https://github.com/techyvish/dancing-bird-android.git</string>
+		<key>FC713FA9-921D-452D-ADF7-5354F178B8DF</key>
+		<string>https://github.com/techyvish/dancing-bird-iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SampleiOSGame.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DBD93B53-FD2F-4A35-8930-34C81702837D</key>
+		<string>../../../dancing-bird-android</string>
+		<key>FC713FA9-921D-452D-ADF7-5354F178B8DF</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/techyvish/dancing-bird-iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FC713FA9-921D-452D-ADF7-5354F178B8DF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DBD93B53-FD2F-4A35-8930-34C81702837D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>dancing-bird-android</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FC713FA9-921D-452D-ADF7-5354F178B8DF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>dancing-bird-iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>
